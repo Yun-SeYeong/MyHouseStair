@@ -369,7 +369,7 @@ class ContractService(
         }.flatMap { step ->
             step.contractHistories
         }.filter {
-            it.type == ContractHistoryType.FILE && it.isCompleted
+            it.type == ContractHistoryType.FILE && it.isCompleted &&
                     (it.title.contains(keyword) ||
                             it.description.contains(keyword) ||
                             it.historyTags.any { tag -> tag.contains(keyword) })
