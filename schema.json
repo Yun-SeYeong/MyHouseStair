@@ -1,0 +1,165 @@
+{
+    "address": "서울시 강남구 역삼동 123-456",
+    "addressDetail": "123-456",
+    "expiredAt": "2020-01-01 00:00:00",
+    "steps": [
+        {
+            "status": "ROOM_CHECK",
+            "requestEnabled": false,
+            "histories": [
+                {
+                    "isDefault": true,
+                    "title": "방 확인 요청",
+                    "description": "방을 확인하셨다면 아래 승인 버튼을 눌려주세요.",
+                    "type": "CHECK",
+                    "isCompleted": true,
+                    "fileURL": null,
+                    "textInput": null,
+                    "verifiedBy": "LESSEE",
+                    "historyTags": [],
+                    "updatedAt": "2020-01-01 00:00:00"
+                }
+            ],
+            "createdAt": "2020-01-01 00:00:00"
+        },
+        {
+            "status": "PROVISIONAL_CONTRACT",
+            "requestEnabled": true,
+            "histories": [
+                {
+                    "isDefault": true,
+                    "title": "등기부 등본 업로드 요청",
+                    "description": "등기부등본을 업로드 해주세요.",
+                    "type": "FILE",
+                    "isCompleted": true,
+                    "fileURL": "http://file.com",
+                    "textInput": null,
+                    "verifiedBy": "LANDLORD",
+                    "historyTags": ["등기부등본"],
+                    "updatedAt": "2020-01-01 00:00:00"
+                },
+                {
+                    "isDefault": true,
+                    "title": "가계약금 입금 계좌 요청",
+                    "description": "임차인이 가계약금을 입금을 할 수 있도록 계좌 번호를 입력해주세요.",
+                    "type": "TEXT",
+                    "isCompleted": true,
+                    "fileURL": "http://file.com",
+                    "textInput": "기업은행 123-1234-123",
+                    "verifiedBy": "LANDLORD",
+                    "historyTags": ["가계약금입금계좌"],
+                    "updatedAt": "2020-01-01 00:00:00"
+                },
+                {
+                    "isDefault": true,
+                    "title": "가계약금 입금 확인 요청",
+                    "description": "가계약금 입금이 완료되면 확인 버튼을 눌려주세요",
+                    "type": "CHECK",
+                    "isCompleted": true,
+                    "fileURL": null,
+                    "textInput": null,
+                    "verifiedBy": "LESSEE",
+                    "historyTags": [],
+                    "updatedAt": "2020-01-01 00:00:00"
+                },
+                {
+                    "isDefault": true,
+                    "title": "가계약금 입금 확인 요청",
+                    "description": "가계약금 입금이 완료되면 확인 버튼을 눌려주세요.",
+                    "type": "CHECK",
+                    "isCompleted": true,
+                    "fileURL": null,
+                    "textInput": null,
+                    "verifiedBy": "LANDLORD",
+                    "historyTags": [],
+                    "updatedAt": "2020-01-01 00:00:00"
+                }
+            ],
+            "createdAt": "2020-01-01 00:00:00"
+        },
+        {
+            "status": "CONTRACT",
+            "requestEnabled": true,
+            "histories": [
+                {
+                    "isDefault": true,
+                    "title": "계약서 업로드 요청",
+                    "description": "계약서를 업로드 해주세요.",
+                    "type": "FILE",
+                    "isCompleted": true,
+                    "fileURL": "http://file.com",
+                    "textInput": null,
+                    "verifiedBy": "LANDLORD",
+                    "historyTags": ["계약서"],
+                    "updatedAt": "2020-01-01 00:00:00"
+                },
+                {
+                    "isDefault": true,
+                    "title": "계약금 입금 계좌 요청",
+                    "description": "임차인이 계약금을 입금을 할 수 있도록 계좌 번호를 입력해주세요.",
+                    "type": "TEXT",
+                    "isCompleted": true,
+                    "fileURL": "http://file.com",
+                    "textInput": "기업은행 123-1234-123",
+                    "verifiedBy": "LANDLORD",
+                    "historyTags": ["계약금입금계좌"],
+                    "updatedAt": "2020-01-01 00:00:00"
+                },
+                {
+                    "title": "특약 추가 요청",
+                    "description": "본 계약은 임차인의 전세 자금 대출을 전제로 하며, 임대인 또는 임차 목적물의 하자로 인한 전세 자금 대출 미승인 시 계약은 무효로 하며 임대인은 계약금을 임차인에게 즉시 반환하기로 한다.",
+                    "type": "TEXT",
+                    "isCompleted": false,
+                    "fileURL": "http://file.com",
+                    "textInput": "기업은행 123-1234-123",
+                    "verifiedBy": "LANDLORD",
+                    "historyTags": ["특약"],
+                    "updatedAt": "2020-01-01 00:00:00"
+                },
+                {
+                    "isDefault": false,
+                    "title": "계약서 업로드 요청",
+                    "description": "계약서를 업로드 해주세요.",
+                    "type": "FILE",
+                    "isCompleted": true,
+                    "fileURL": "http://file.com",
+                    "textInput": null,
+                    "verifiedBy": "LANDLORD",
+                    "historyTags": ["계약서"],
+                    "updatedAt": "2020-01-01 00:00:00"
+                },
+                {
+                    "isDefault": true,
+                    "title": "계약금 입금 확인 요청",
+                    "description": "계약금 입금이 완료되면 확인 버튼을 눌려주세요.",
+                    "type": "CHECK",
+                    "isCompleted": true,
+                    "fileURL": null,
+                    "textInput": null,
+                    "verifiedBy": "LESSEE",
+                    "historyTags": [],
+                    "updatedAt": "2020-01-01 00:00:00"
+                },
+                {
+                    "isDefault": true,
+                    "title": "계약금 입금 확인 요청",
+                    "description": "계약금 입금이 완료되면 확인 버튼을 눌려주세요.",
+                    "type": "CHECK",
+                    "isCompleted": true,
+                    "fileURL": null,
+                    "textInput": null,
+                    "verifiedBy": "LANDLORD",
+                    "historyTags": [],
+                    "updatedAt": "2020-01-01 00:00:00"
+                }
+            ],
+            "createdAt": "2020-01-01 00:00:00"
+        },
+        {
+            "status": "COMPLETE",
+            "requestEnabled": false,
+            "histories": [],
+            "createdAt": "2020-01-01 00:00:00"
+        }
+    ]
+}
